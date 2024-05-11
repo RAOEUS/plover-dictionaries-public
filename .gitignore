@@ -1,0 +1,13 @@
+.cache
+raoeus-text-expansion.json
+raoeus-lapwing.json
+plugins
+strokes.log
+plover.log
+clippy.txt
+tapey_tape.txt
+/commands.json
+/user.json
+/main.json
+*.swp
+plover.qss

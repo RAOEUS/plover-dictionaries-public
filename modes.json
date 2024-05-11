@@ -1,0 +1,10 @@
+{
+  "SPH-FP": "{MODE:SET_SPACE:}",
+  "SPH-R": "{MODE:RESET}",
+  "SPH-RB": "{MODE:SET_SPACE:-}",
+  "SPH-PBLG": "{MODE:CAMEL}",
+  "SPH-PBG": "{MODE:CAPS}",
+  "SPH-L": "{MODE:LOWER}",
+  "SPH-T": "{MODE:TITLE}",
+  "SPH-S": "{MODE:SNAKE}"
+}

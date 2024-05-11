@@ -1,0 +1,1 @@
+type -wait $env:LOCALAPPDATA\plover\plover\tapey_tape.txt
