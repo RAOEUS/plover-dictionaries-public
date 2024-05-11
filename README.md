@@ -42,7 +42,7 @@ This dictionary is used with the `plover-retro-stringop` plugin.
 - `-R` is snake_case, `-B` is camelCase, `-G` is PascalCase, `-RB` is UPPER_SNAKE_CASE, `-BG` is kebap-case
 - As an alternative to using STPH for binary numbers, you can also just repeat it once per word.
   - For example, to change three words to snake_case, `KWR-R/KWR-R/KWR-R` instead of `KPWHR-R`
- 
+
 ## lapwing-prefixed-proper-nouns.py
 The original lapwing-prefixed-proper-nouns.json from Lapwing is used when your machine does not have an option to re-map the top `-S` key to `#`. However, the starting `#` is, by default, mapped to `=repeat_last_translation`. I like the default stroke for repeating translations, so I created this Python dictionary to change the starting chord for proper nouns to `SKWR` instead of `#`.
 
@@ -57,17 +57,21 @@ The dictionaries should be in a particular order and some should be kept disable
 This information should already be stored in the plover.cfg (you can simply move this over to your main Plover config directory and then modify it), but if you don't want to use that, this may help you out.
 
 - [x] plover-dictionaries/raw_enter.py [For creating raw steno output]
+- [x] plover-dictionaries/korean_enter.py [For writing Hangul using easy_Korean_steno_chorded.py]
 - [x] plover-dictionaries/raoeus-lapwing.json
+- [x] plover-dictionaries/raoeus/force-jeffs.json [To force myself to use Jeff's phrasing (WIP)]
 - [x] plover-dictionaries/raoeus-commands.json
-- [x] plover-dictionaries/raoeus-text-expansion.json
+- [x] plover-dictionaries/raoeus-text-expansion.json [Not included in this repo for privacy, but it works like regular text expansion]
 - [x] plover-dictionaries/modes.json
 - [x] plover-dictionaries/plover-left-hand-modifiers/abby-left-hand-modifiers.py
 - [x] plover-dictionaries/jeff-phrasing/jeff-phrasing.py
 - [x] plover-dictionaries/emily-symbols/emily-symbols.py
 - [x] plover-dictionaries/emily-modifiers/emily-modifiers.py
-- [x] plover-dictionaries/lapwing-prefixed-proper-nouns.py
-- [x] plover-dictionaries/lapwing-numbers.py
+- [x] plover-dictionaries/lapwing-prefixed-proper-nouns.py [For using Lapwing on non-split S- machines]
+- [x] plover-dictionaries/aerick/lapwing-numbers.json
+- [x] plover-dictionaries/aerick/lapwing-proper-nouns.json
 - [x] plover-dictionaries/aerick/lapwing-commands.json
 - [x] plover-dictionaries/aerick/commands.json
 - [x] plover/dictionaries/aerick/lapwing-base.json
+- [ ] plover-dictionaries/easy_korean_steno/easy_Korean_steno_chorded.py [Will be the only enabled dict when hangul mode is turned on via korean_enter.py]
 - [ ] plover-dictionaries/raw.py [Will be the only enabled dict when raw steno mode is turned on via raw-enter.py]
