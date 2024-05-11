@@ -1,0 +1,18 @@
+[submodule "aerick"]
+	path = aerick
+	url = https://github.com/aerickt/steno-dictionaries.git
+[submodule "plover-left-hand-modifiers"]
+	path = plover-left-hand-modifiers
+	url = https://github.com/Abkwreu/plover-left-hand-modifiers.git
+[submodule "emily-symbols"]
+	path = emily-symbols
+	url = https://github.com/EPLHREU/emily-symbols.git
+[submodule "emily-modifiers"]
+	path = emily-modifiers
+	url = https://github.com/EPLHREU/emily-modifiers.git
+[submodule "jeff-phrasing"]
+	path = jeff-phrasing
+	url = https://github.com/jthlim/jeff-phrasing.git
+[submodule "easy_korean_steno"]
+	path = easy_korean_steno
+	url = https://github.com/petercpark/easy_korean_steno.git
