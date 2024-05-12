@@ -16,3 +16,6 @@
 [submodule "easy_korean_steno"]
 	path = easy_korean_steno
 	url = https://github.com/petercpark/easy_korean_steno.git
+[submodule "elizabeth"]
+	path = elizabeth
+	url = https://github.com/Thelxiepeia/Sample-Steno-Dictionaries.git
